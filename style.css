@@ -1,13 +1,13 @@
 
 body {
-    background-color: #fff0e6;
+    background-color: #f0edff;
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
 }
 
 header {
-    background-color: #e76f51;
+    background-color: #6a4cbb;
     color: white;
     padding: 25px;
 }
@@ -31,6 +31,7 @@ h2 {
     border-radius: 12px;
     width: 220px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d6ccff;
 }
 
 .food-item img {
@@ -45,13 +46,13 @@ h2 {
 }
 
 .price {
-    color: #e76f51;
+    color: #2878d0;
     font-weight: bold;
     font-size: 18px;
 }
 
 footer {
-    background-color: #e76f51;
+    background-color: #2878d0;
     color: white;
     padding: 15px;
     margin-top: 30px;
