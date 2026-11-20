@@ -6,10 +6,11 @@ body {
     margin: 0;
 }
 
-header {
+h1 {
     background-color: #6a4cbb;
     color: white;
     padding: 25px;
+    margin-top: 0;
 }
 
 h2 {
