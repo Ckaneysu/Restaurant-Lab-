@@ -1,0 +1,58 @@
+
+body {
+    background-color: #fff0e6;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-color: #e76f51;
+    color: white;
+    padding: 25px;
+}
+
+h2 {
+    color: #333;
+    margin-top: 30px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+.food-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    width: 220px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.food-item img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.food-item h3 {
+    color: #333;
+}
+
+.price {
+    color: #e76f51;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #e76f51;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
