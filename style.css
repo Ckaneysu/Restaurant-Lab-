@@ -1,4 +1,5 @@
 
+/* Main Website Background */
 body {
     background-color: #f0edff;
     font-family: Arial, sans-serif;
@@ -6,18 +7,25 @@ body {
     margin: 0;
 }
 
-h1 {
+/* Header */
+header {
     background-color: #6a4cbb;
     color: white;
-    padding: 25px;
-    margin-top: 0;
+    padding: 15px;
 }
 
+h1 {
+    margin: 10px;
+    font-size: 32px;
+}
+
+/* Menu Heading */
 h2 {
-    color: #333;
+    color: #333333;
     margin-top: 30px;
 }
 
+/* Menu Layout */
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -26,6 +34,7 @@ h2 {
     padding: 20px;
 }
 
+/* Food Cards */
 .food-item {
     background-color: white;
     padding: 15px;
@@ -35,6 +44,7 @@ h2 {
     border: 2px solid #d6ccff;
 }
 
+/* Food Images */
 .food-item img {
     width: 200px;
     height: 150px;
@@ -42,19 +52,31 @@ h2 {
     border-radius: 10px;
 }
 
+/* Food Names */
 .food-item h3 {
-    color: #333;
+    color: #6a4cbb;
 }
 
+/* Food Descriptions */
+.food-item p {
+    color: #444444;
+}
+
+/* Prices */
 .price {
-    color: #2878d0;
+    color: #2878d0 !important;
     font-weight: bold;
     font-size: 18px;
 }
 
+/* Footer */
 footer {
     background-color: #2878d0;
     color: white;
     padding: 15px;
     margin-top: 30px;
+}
+
+footer p {
+    color: white;
 }
